@@ -108,7 +108,7 @@ let currentSlideHorizonEPOS = 0;
           <a href="https://github.com/willgriffin111/Uni-Hub" target="_blank" class="github-button">View on GitHub</a>
         </div>
         <div class="project-card">
-          <video src="Projects/8-bitComputer.mov" controls poster="/8-bit.png" width="100%"> </video>
+          <video src="Projects/8-bitComputer.mp4" controls poster="/8-bit.png" width="100%"> </video>
           <h3>8-bit Breadboard Computer</h3>
           <p>Built a fully functional 8-bit computer on breadboards using 7400-series logic ICs. It features a custom clock, instruction set, and microcoded control unit.</p>
         </div>
