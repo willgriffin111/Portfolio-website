@@ -142,11 +142,11 @@ padding-bottom: 4%;
   width: 50px;
   height: 40px;
   border-radius: 50%;
-  background-color: white; /* white circle inside blue bg */
+  background-color: white; 
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #0056b3;          /* icon matches blue */
+  color: #0056b3;          
   font-size: 1.2rem;
 
 }
@@ -310,7 +310,7 @@ video {
   z-index: 0;
 }
 
-/* Rows */
+
 .timeline-row {
   display: flex;
   width: 100%;
@@ -375,6 +375,55 @@ video {
   font-size: 16px;
   color: #007acc;
 }
+
+.timeline-row.left,
+.timeline-row.right {
+  justify-content: center;
+}
+
+.timeline-row.left .timeline-item {
+  width: 60%;              
+  transform: translateX(-55%);
+}
+
+.timeline-row.right .timeline-item {
+  width: 60%;             
+  transform: translateX(55%);
+}
+
+@media (max-width: 850px) {
+  /* Remove the vertical line */
+  .timeline-center::before {
+    display: none;
+  }
+
+  /* Stack all rows in a single column */
+  .timeline-row,
+  .timeline-row.left,
+  .timeline-row.right {
+    display: flex;
+    flex-direction: column;   /* stack items */
+    align-items: center;      /* center horizontally */
+    justify-content: flex-start;
+    margin: 1.5rem 0;
+  }
+
+  /* Full-width (ish) boxes, no transforms */
+  .timeline-row .timeline-item {
+    width: 90%;
+    max-width: 600px;
+    transform: none !important;
+    margin: 1rem 0;
+  }
+
+  /* Hide the arrows */
+  .arrow-left,
+  .arrow-right {
+    display: none;
+  }
+}
+
+
 
 
 
@@ -444,8 +493,8 @@ video {
 }
 
 .education-content button {
-  margin: 1rem auto 0;         /* top margin and auto horizontal centering */
-  display: block;              /* ensures it behaves like a block-level element */
+  margin: 1rem auto 0;        
+  display: block;              
   padding: 0.5rem 1rem;
   background-color: #007acc;
   color: white;

@@ -82,11 +82,10 @@
           </div>
           <div class="home-bio">
             <h2>Hi, I'm Will Griffin</h2>
-            <p style="font-size: 20px;">   I'm a Computer Science graduate from UWE Bristol with a strong interest 
-              in embedded systems and full-stack development. I enjoy designing systems 
-              that interact with real-world data - from building an 8-bit computer on breadboards
-               to creating real-time Automotive Monitoring system.
-            </p>
+          <p style="font-size: 20px;">
+            I’m a Computer Science graduate from UWE Bristol with a passion for embedded systems and full-stack development. I love designing solutions that bridge the digital and physical worlds - from building a physicalisation of fitness data to creating a real-time Automotive Monitoring System.
+          </p>
+
           </div>
         </div>
     
@@ -171,9 +170,10 @@
             <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
             <div class="timeline-item">
               <div class="arrow-left"></div>
-              <h3>LOOP Project</h3>
-              <span class="timeline-date">July 2025</span>
-              <p>TBD</p>
+              <h3>LOOP Project – Embedded Systems Intern</h3>
+              <span class="timeline-date">June – August 2025</span>
+              <p>Loop transforms digital fitness metrics into physical movement. I wrote C++ firmware for the Raspberry Pi Pico to drive eight servo motors as rings mapping daily steps, distance and heart-rate data. On the backend, I built a secure Flask API with JWT authentication and Fitbit OAuth, deployed on AWS EC2 with NGINX-enabled HTTPS and backed by PostgreSQL. The Svelte frontend, hosted on S3 and served through CloudFront, pulls data via Chart.js to visualise weekly trends. This solution was delivered in partnership with The Bridge at UWE Bristol under Kim Sauvé.</p>
+
             </div>
           </div>
 
@@ -227,9 +227,9 @@
       
                   <tr><td>3</td><td>Advanced Systems Programming</td><td>89%</td></tr>
                   <tr><td>3</td><td>Autonomous Agents & Multi-Agent Systems</td><td>73%</td></tr>
-                  <tr><td>3</td><td>Distributed & Enterprise Software Development</td><td>TBD</td></tr>
-                  <tr><td>3</td><td>Communications & Protocols</td><td>TBD</td></tr>
-                  <tr><td>3</td><td>Digital Systems Project</td><td>TBD</td></tr>
+                  <tr><td>3</td><td>Distributed & Enterprise Software Development</td><td>79%</td></tr>
+                  <tr><td>3</td><td>Communications & Protocols</td><td>78%</td></tr>
+                  <tr><td>3</td><td>Digital Systems Project</td><td>79%</td></tr>
                 </tbody>
               </table>
             {/if}
