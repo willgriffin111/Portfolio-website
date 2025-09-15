@@ -172,7 +172,11 @@
               <div class="arrow-left"></div>
               <h3>LOOP Project – Embedded Systems Intern</h3>
               <span class="timeline-date">June – August 2025</span>
-              <p>Loop transforms digital fitness metrics into physical movement. I wrote C++ firmware for the Raspberry Pi Pico to drive eight servo motors as rings mapping daily steps, distance and heart-rate data. On the backend, I built a secure Flask API with JWT authentication and Fitbit OAuth, deployed on AWS EC2 with NGINX-enabled HTTPS and backed by PostgreSQL. The Svelte frontend, hosted on S3 and served through CloudFront, pulls data via Chart.js to visualise weekly trends. This solution was delivered in partnership with The Bridge at UWE Bristol under Kim Sauvé.</p>
+<p>
+Loop converts fitness data into movement with servo-driven rings powered by a Raspberry Pi Pico. It uses a Flask API with JWT and Fitbit OAuth, PostgreSQL for storage, and a Svelte frontend with Chart.js for visualisation. Developed with The Bridge at UWE Bristol.
+</p>
+
+
 
             </div>
           </div>
@@ -280,9 +284,10 @@
           <input type="text" name="name" placeholder="Your Name" required />
           <input type="email" name="email" placeholder="Your Email" required />
           <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-          <button type="submit">Send Message</button>
+          <button type="submit" style="margin-bottom: 100px;">Send Message</button>
         </form>
       {/if}
     </section>
+
   {/each}
 </main>
