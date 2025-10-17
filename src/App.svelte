@@ -170,7 +170,7 @@
             <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
             <div class="timeline-item">
               <div class="arrow-left"></div>
-              <h3>LOOP Project – Embedded Systems Intern</h3>
+              <h3>LOOP Project – Full Stack Developer Internship</h3>
               <span class="timeline-date">June – August 2025</span>
 <p>
 Loop converts fitness data into movement with servo-driven rings powered by a Raspberry Pi Pico. It uses a Flask API with JWT and Fitbit OAuth, PostgreSQL for storage, and a Svelte frontend with Chart.js for visualisation. Developed with The Bridge at UWE Bristol.
